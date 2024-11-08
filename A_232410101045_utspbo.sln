@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_232410101045_utspbo", "A_232410101045_utspbo.csproj", "{A3728A1D-D9B9-453E-B86E-C44C68C6120F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FolderUtama", "FolderUtama", "{E4797F85-3198-4536-90D8-815091E34C7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3728A1D-D9B9-453E-B86E-C44C68C6120F} = {E4797F85-3198-4536-90D8-815091E34C7C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FCDEA26-C16B-40ED-BF9F-24E65BDED045}
